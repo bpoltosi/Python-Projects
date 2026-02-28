@@ -1,0 +1,1 @@
+Meu repositório de arquivos desenvolvidos em vários cursos, onde aprendi a utilizar e aperfeiçoar meus conhecimentos em Python (linguagem única do repositório). Projetos totalmente desenvolvidos manualmente com problemas/desafios propostos por professores.
