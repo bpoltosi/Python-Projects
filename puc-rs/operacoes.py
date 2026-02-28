@@ -1,0 +1,25 @@
+import math
+
+a = int (input("Digite o primeiro valor inteiro: "))
+b = int (input("Digite o segundo valor inteiro: "))
+
+valor1 = str (a)
+valor2 = str (b)
+somaValores = str (a + b)
+diferencaValores = str (a - b)
+mediaValores = str ((a + b) / 2)
+distanciaValores = str (math.fabs(max(a, b) - min(a, b)))
+maiorValor = str ((a + b + math.fabs(a - b)) / 2)
+menorValor = str ((a + b - math.fabs(a - b)) / 2)
+
+print("-----------------------------")
+print ("Valor 1 = " + valor1)
+print ("Valor 2 = " + valor2)
+print("-----------------------------")
+print("Soma dos valores: " + somaValores)
+print("Diferenca dos valores: " + diferencaValores)
+print("Media dos valores: " + mediaValores)
+print("Distancia dos valores: "+ distanciaValores)
+print("Maior valor: " + maiorValor)
+print("Menor valor: " + menorValor)
+print("-----------------------------")
